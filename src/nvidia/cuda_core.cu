@@ -951,14 +951,14 @@ void cryptonight_gpu_hash(nvid_ctx *ctx, xmrig::Algo algo, xmrig::Variant varian
             break;
         }
     }
-    else if (algo == CRYPTONIGHT_LITE) {
+    else if (algo == CRYPTONIGHT_UPX) {
         switch (variant) {
         case VARIANT_0:
-            cryptonight_core_gpu_hash<CRYPTONIGHT_LITE, VARIANT_0>(ctx, startNonce);
+            cryptonight_core_gpu_hash<CRYPTONIGHT_UPX, VARIANT_0>(ctx, startNonce);
             break;
 
         case VARIANT_1:
-            cryptonight_core_gpu_hash<CRYPTONIGHT_LITE, VARIANT_1>(ctx, startNonce);
+            cryptonight_core_gpu_hash<CRYPTONIGHT_UPX, VARIANT_1>(ctx, startNonce);
             break;
 
         default:
@@ -983,7 +983,7 @@ void cryptonight_gpu_hash(nvid_ctx *ctx, xmrig::Algo algo, xmrig::Variant varian
             break;
         }
     }
-    else if (algo == CRYPTONIGHT_PICO) {
-        cryptonight_core_gpu_hash<CRYPTONIGHT_PICO, VARIANT_TRTL>(ctx, startNonce);
+    else if (algo == CRYPTONIGHT_PLEX) {
+        cryptonight_core_gpu_hash<CRYPTONIGHT_PLEX, VARIANT_UPX2>(ctx, startNonce);
     }
 }

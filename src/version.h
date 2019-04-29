@@ -25,12 +25,12 @@
 #ifndef XMRIG_VERSION_H
 #define XMRIG_VERSION_H
 
-#define APP_ID        "xmrig-nvidia"
-#define APP_NAME      "XMRig-NVIDIA"
-#define APP_DESC      "XMRig CUDA miner"
-#define APP_VERSION   "2.14.3"
-#define APP_DOMAIN    "xmrig.com"
-#define APP_SITE      "www.xmrig.com"
+#define APP_ID        "fruityminer-nvidia"
+#define APP_NAME      "FruityMiner-NVIDIA"
+#define APP_DESC      "Fruity CUDA miner"
+#define APP_VERSION   "0.2.0"
+#define APP_DOMAIN    "fruitypool.com"
+#define APP_SITE      "www.fruitypool.com"
 #define APP_COPYRIGHT "Copyright (C) 2016-2019 xmrig.com"
 #define APP_KIND      "nvidia"
 

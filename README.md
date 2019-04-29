@@ -1,20 +1,20 @@
 # XMRig NVIDIA
 
-[![Github All Releases](https://img.shields.io/github/downloads/xmrig/xmrig-nvidia/total.svg)](https://github.com/xmrig/xmrig-nvidia/releases)
-[![GitHub release](https://img.shields.io/github/release/xmrig/xmrig-nvidia/all.svg)](https://github.com/xmrig/xmrig-nvidia/releases)
-[![GitHub Release Date](https://img.shields.io/github/release-date-pre/xmrig/xmrig-nvidia.svg)](https://github.com/xmrig/xmrig-nvidia/releases)
-[![GitHub license](https://img.shields.io/github/license/xmrig/xmrig-nvidia.svg)](https://github.com/xmrig/xmrig-nvidia/blob/master/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/xmrig/xmrig-nvidia.svg)](https://github.com/xmrig/xmrig-nvidia/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/xmrig/xmrig-nvidia.svg)](https://github.com/xmrig/xmrig-nvidia/network)
+[![Github All Releases](https://img.shields.io/github/downloads/xmrig/fruityminer-nvidia/total.svg)](https://github.com/xmrig/fruityminer-nvidia/releases)
+[![GitHub release](https://img.shields.io/github/release/xmrig/fruityminer-nvidia/all.svg)](https://github.com/xmrig/fruityminer-nvidia/releases)
+[![GitHub Release Date](https://img.shields.io/github/release-date-pre/xmrig/fruityminer-nvidia.svg)](https://github.com/xmrig/fruityminer-nvidia/releases)
+[![GitHub license](https://img.shields.io/github/license/xmrig/fruityminer-nvidia.svg)](https://github.com/xmrig/fruityminer-nvidia/blob/master/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/xmrig/fruityminer-nvidia.svg)](https://github.com/xmrig/fruityminer-nvidia/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/xmrig/fruityminer-nvidia.svg)](https://github.com/xmrig/fruityminer-nvidia/network)
 
 XMRig is high performance Monero (XMR) NVIDIA miner, with the official full Windows support.
 
 GPU mining part based on [psychocrypt](https://github.com/psychocrypt) code used in xmr-stak-nvidia.
 
-* This is the **NVIDIA GPU** mining version, there is also a [CPU version](https://github.com/xmrig/xmrig) and [AMD GPU version]( https://github.com/xmrig/xmrig-amd).
+* This is the **NVIDIA GPU** mining version, there is also a [CPU version](https://github.com/xmrig/xmrig) and [AMD GPU version]( https://github.com/xmrig/fruityminer-amd).
 * [Roadmap](https://github.com/xmrig/xmrig/issues/106) for next releases.
 
-:warning: Suggested values for GPU auto configuration can be not optimal or not working, you may need tweak your threads options. Please feel free open an [issue](https://github.com/xmrig/xmrig-nvidia/issues) if auto configuration suggest wrong values.
+:warning: Suggested values for GPU auto configuration can be not optimal or not working, you may need tweak your threads options. Please feel free open an [issue](https://github.com/xmrig/fruityminer-nvidia/issues) if auto configuration suggest wrong values.
 
 <img src="https://i.imgur.com/wRCZ3IJ.png" width="620" >
 
@@ -22,7 +22,7 @@ GPU mining part based on [psychocrypt](https://github.com/psychocrypt) code used
 * [Features](#features)
 * [Download](#download)
 * [Usage](#usage)
-* [Build](https://github.com/xmrig/xmrig-nvidia/wiki/Build)
+* [Build](https://github.com/xmrig/fruityminer-nvidia/wiki/Build)
 * [Donations](#donations)
 * [Release checksums](#release-checksums)
 * [Contacts](#contacts)
@@ -38,9 +38,9 @@ GPU mining part based on [psychocrypt](https://github.com/psychocrypt) code used
 * It's open source software.
 
 ## Download
-* Binary releases: https://github.com/xmrig/xmrig-nvidia/releases
-* Git tree: https://github.com/xmrig/xmrig-nvidia.git
-  * Clone with `git clone https://github.com/xmrig/xmrig-nvidia.git`  :hammer: [Build instructions](https://github.com/xmrig/xmrig-nvidia/wiki/Build).
+* Binary releases: https://github.com/xmrig/fruityminer-nvidia/releases
+* Git tree: https://github.com/xmrig/fruityminer-nvidia.git
+  * Clone with `git clone https://github.com/xmrig/fruityminer-nvidia.git`  :hammer: [Build instructions](https://github.com/xmrig/fruityminer-nvidia/wiki/Build).
 
 ## Usage
 Use [config.xmrig.com](https://config.xmrig.com/nvidia) to generate, edit or share configurations.
@@ -49,7 +49,7 @@ Use [config.xmrig.com](https://config.xmrig.com/nvidia) to generate, edit or sha
 ```
   -a, --algo=ALGO          specify the algorithm to use
                              cryptonight
-                             cryptonight-lite
+                             cryptonight-upx
                              cryptonight-heavy
   -o, --url=URL             URL of mining server
   -O, --userpass=U:P        username:password pair for mining server
